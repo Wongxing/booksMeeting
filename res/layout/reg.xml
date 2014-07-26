@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shu_background" >
+    <TableLayout 
+        android:layout_width ="fill_parent"
+        android:layout_height ="fill_parent"
+        android:stretchColumns="1"
+        >
+        <TableRow>
+            <TextView 
+                android:text="用户名称："
+                android:id="@+id/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText 
+                android:text=""
+                android:id="@+id/reg_userEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView 
+                android:text="用户密码："
+                android:id="@+id/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText 
+                android:text=""
+                android:id="@+id/reg_pwdEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:password="true"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView 
+                android:text="确认密码："
+                android:id="@+id/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText 
+                android:text=""
+                android:id="@+id/reg_check_pwdEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:password="true"
+                />
+        </TableRow>
+        <TableRow android:gravity="right">
+            <Button 
+                android:text="登录"
+                android:id="@+id/cancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button 
+                android:text="确认注册"
+                android:id="@+id/new_reg_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+    </TableLayout>
+   
+
+
+</LinearLayout>
+
+

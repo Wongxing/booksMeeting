@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/shu_background" >
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:text="退出" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="TextView00000000000" />
+
+    <Button
+        android:id="@+id/newOneBtn"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:gravity="center"
+        android:text="创建书会" />
+    <Button
+        android:id="@+id/whtchingAllBtn"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/newOneBtn"
+        android:gravity="center"
+        android:text="查看所有书会" />
+
+    <Button
+        android:id="@+id/myshuhuiBtn"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/whtchingAllBtn"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/whtchingAllBtn"
+        android:text="我创建的书会" />
+
+    <Button
+        android:id="@+id/myAttenBtn"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/myshuhuiBtn"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/myshuhuiBtn"
+        android:text="我参加的书会" />
+    
+    <Button
+        android:id="@+id/friendBtn"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/myshuhuiBtn"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/myAttenBtn"
+        android:text="我的好友" />
+
+    <Button
+        android:id="@+id/checkBtn"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/myshuhuiBtn"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/friendBtn"
+        android:text="签到" />
+    
+
+    </RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookmeeting"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.bookmeeting.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".main_page"/>
+        <activity android:name=".finding"/>
+        <activity android:name=".watching"/>
+        <activity android:name=".myshuhui"/>
+        <activity android:name=".Atten"/>
+        <activity android:name=".attendPeople"/>
+        <activity android:name=".friend"/>
+        <activity android:name=".chat"/>
+        <activity android:name=".chating"/>
+        <activity android:name=".checkin"/>
+        <activity android:name=".checkin_getUp"/>
+        <activity android:name=".checkin_getUpRank"/>
+        <activity android:name=".checkin_library"/>
+        <activity android:name=".checkin_libraryRank"/>
+        <activity android:name=".checkin_state"/>
+        
+    </application>
+ <!-- 授权访问网络 -->
+<uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

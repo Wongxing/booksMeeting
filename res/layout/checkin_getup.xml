@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/shu_background" >
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="TextView00000000000" />
+
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/stateEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/getupSubmitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/getupCancelBtn"
+        android:layout_alignBottom="@+id/getupCancelBtn"
+        android:layout_alignRight="@+id/stateEditText"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/getupCancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stateEditText"
+        android:layout_below="@+id/stateEditText"
+        android:layout_marginTop="60dp"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/getUpCheckRankBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/getupCancelBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/getupSubmitBtn"
+        android:layout_marginBottom="26dp"
+        android:text="Check Rank" />
+
+    </RelativeLayout>

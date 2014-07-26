@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/shu_background">
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:text="时   间:"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/SpecificTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:text="地   点:"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/SpecificPos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:text="书   目:"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/SpecificTopic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:text="发起人:"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Faqiren"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:text="备 注:"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Note"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="25sp" />
+        
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:text="参加人数:"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/PeopleNum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Attend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="参加" />
+
+</LinearLayout>

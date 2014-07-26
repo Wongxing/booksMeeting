@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/shu_background" >
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="TextView00000000000" />
+
+    <Button
+        android:id="@+id/getUpBtn"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:gravity="center"
+        android:text="早起签到" />
+    <Button
+        android:id="@+id/libraryBtn"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/getUpBtn"
+        android:gravity="center"
+        android:text="泡馆签到" />
+   
+    <Button
+        android:id="@+id/stateBtn"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/libraryBtn"
+        android:gravity="center"
+        android:text="查看好友状态" />
+
+    </RelativeLayout>

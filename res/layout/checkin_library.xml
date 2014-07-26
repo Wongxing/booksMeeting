@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/shu_background" >
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="TextView00000000000" />
+
+    <Button
+        android:id="@+id/libraryBtnSumbit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/libraryBtnCancel"
+        android:layout_alignBottom="@+id/libraryBtnCancel"
+        android:layout_alignRight="@+id/stateEditText"
+        android:text="Submit" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stateEditText"
+        android:layout_below="@+id/textView1"
+        android:src="@drawable/library" />
+
+    <Button
+        android:id="@+id/libraryBtnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stateEditText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="88dp"
+        android:text="Cancel" />
+
+    <EditText
+        android:id="@+id/stateEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/libraryBtnSumbit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/libraryCheckRankBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/libraryBtnCancel"
+        android:layout_alignRight="@+id/libraryBtnSumbit"
+        android:layout_below="@+id/libraryBtnSumbit"
+        android:layout_marginTop="19dp"
+        android:text="Check Rank" />
+
+    </RelativeLayout>
