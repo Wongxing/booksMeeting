@@ -24,23 +24,27 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
         public static final int icon_=0x7f020001;
         public static final int library=0x7f020002;
-        public static final int shu_background=0x7f020003;
+        public static final int pulltorefresh=0x7f020003;
+        public static final int shu_background=0x7f020004;
     }
     public static final class id {
-        public static final int Attend=0x7f08004c;
+        public static final int Attend=0x7f080051;
         public static final int AttendPeople=0x7f08003e;
         public static final int CheckNumber=0x7f08001b;
-        public static final int Faqiren=0x7f080049;
+        public static final int Date=0x7f080047;
+        public static final int Faqiren=0x7f08004e;
         public static final int FindingNewButton=0x7f080019;
-        public static final int Note=0x7f08004a;
+        public static final int Note=0x7f08004f;
         public static final int Num=0x7f080026;
-        public static final int PeopleNum=0x7f08004b;
+        public static final int PeopleNum=0x7f080050;
         public static final int Pos=0x7f080023;
         public static final int ShareButton=0x7f08001a;
-        public static final int ShuhuiListView=0x7f080003;
-        public static final int SpecificPos=0x7f080047;
-        public static final int SpecificTime=0x7f080046;
-        public static final int SpecificTopic=0x7f080048;
+        public static final int ShuhuiListView=0x7f080044;
+        public static final int SpecificPos=0x7f08004c;
+        public static final int SpecificTime=0x7f08004b;
+        public static final int SpecificTopic=0x7f08004d;
+        public static final int State=0x7f080046;
+        public static final int StateListView=0x7f080002;
         public static final int TextView=0x7f080013;
         public static final int TextView01=0x7f080036;
         public static final int TextView02=0x7f080033;
@@ -49,7 +53,8 @@ public final class R {
         public static final int TextView05=0x7f08003c;
         public static final int Time=0x7f080022;
         public static final int Topic=0x7f080024;
-        public static final int action_settings=0x7f08004d;
+        public static final int UserName=0x7f080045;
+        public static final int action_settings=0x7f080052;
         public static final int analogClock1=0x7f080007;
         public static final int attendPeople=0x7f080001;
         public static final int attendpeopleListView=0x7f080000;
@@ -58,7 +63,7 @@ public final class R {
         public static final int checkBtn=0x7f080032;
         public static final int checkDays=0x7f08001d;
         public static final int checkUserName=0x7f08001c;
-        public static final int elv=0x7f080045;
+        public static final int elv=0x7f08004a;
         public static final int findingAddEditText=0x7f080016;
         public static final int findingBookEditText=0x7f080014;
         public static final int findingCancelButton=0x7f080018;
@@ -69,6 +74,7 @@ public final class R {
         public static final int getUpBtn=0x7f080004;
         public static final int getUpCheckRankBtn=0x7f08000b;
         public static final int getUpRankView=0x7f08000c;
+        public static final int getlib=0x7f080048;
         public static final int getupCancelBtn=0x7f08000a;
         public static final int getupSubmitBtn=0x7f080009;
         public static final int huiListView=0x7f080020;
@@ -99,11 +105,11 @@ public final class R {
         public static final int sendBtn=0x7f08001e;
         public static final int stateBtn=0x7f080006;
         public static final int stateEditText=0x7f080008;
-        public static final int textView1=0x7f080002;
+        public static final int textView1=0x7f080003;
         public static final int textView2=0x7f080012;
         public static final int us=0x7f080025;
         public static final int userEditText=0x7f080028;
-        public static final int watching_tv=0x7f080044;
+        public static final int watching_tv=0x7f080049;
         public static final int whtchingAllBtn=0x7f08002e;
     }
     public static final class layout {
@@ -127,8 +133,9 @@ public final class R {
         public static final int reg=0x7f030011;
         public static final int shuhui=0x7f030012;
         public static final int shuhuilistview=0x7f030013;
-        public static final int watching=0x7f030014;
-        public static final int xiangqing=0x7f030015;
+        public static final int statelistview=0x7f030014;
+        public static final int watching=0x7f030015;
+        public static final int xiangqing=0x7f030016;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -136,7 +143,12 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int get_more=0x7f050003;
         public static final int hello_world=0x7f050002;
+        public static final int pull_to_refresh=0x7f050005;
+        public static final int refreshing=0x7f050006;
+        public static final int release_to_refresh=0x7f050004;
+        public static final int updating=0x7f050007;
     }
     public static final class style {
         /** 

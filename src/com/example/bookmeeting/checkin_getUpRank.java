@@ -19,8 +19,6 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 
-import android.R.bool;
-import android.R.integer;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Build;
@@ -34,7 +32,6 @@ public class checkin_getUpRank extends Activity {
 	public String user;
 	static String result = "";
 	ListView list;
-	JSONArray jArray;
 
 	@SuppressLint("NewApi")
 	@Override

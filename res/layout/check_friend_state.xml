@@ -1,25 +1,16 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center_horizontal"
-    android:background="@drawable/shu_background" >
-
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="100sp"
-        android:layout_height="50sp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center"
-        android:text="TextView00000000000" />
-    
+    android:orientation="vertical" 
+    android:background="@drawable/shu_background"
+    android:gravity="center">
+     
     <ListView android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/ShuhuiListView"
+        android:id="@+id/StateListView"
         android:gravity="center">
-    </ListView>
-   
+    </ListView>    
 
-    </RelativeLayout>
+</LinearLayout>

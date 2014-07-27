@@ -39,6 +39,8 @@
         <activity android:name=".checkin_library"/>
         <activity android:name=".checkin_libraryRank"/>
         <activity android:name=".checkin_state"/>
+        <activity android:name=".RTPullListView"/>
+        <activity android:name=".RTPullListViewActivity"/>
         
     </application>
  <!-- 授权访问网络 -->
